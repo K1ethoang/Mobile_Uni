@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="text_view_2">Text View 2</string>
+    <string name="text_view_1">Text View 1</string>
+</resources>
