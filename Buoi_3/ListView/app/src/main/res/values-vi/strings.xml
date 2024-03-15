@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ListView</string>
+    <string name="enter_your_password">Nhập mật khẩu</string>
+    <string name="login">Đăng nhập</string>
+    <string name="password">Mật khẩu:</string>
+    <string name="enter_your_email">Nhập email</string>
+    <string name="email">Thư điện tử:</string>
+</resources>

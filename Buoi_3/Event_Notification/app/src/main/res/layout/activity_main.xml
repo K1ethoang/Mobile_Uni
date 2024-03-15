@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnShowToast"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Show Toast"
+        android:textSize="25dp"
+        android:backgroundTint="#FF0000"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnDefaultDialog"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Show Default Dialog"
+        android:textSize="25dp"
+        android:backgroundTint="#19FF00"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/btnCustomDialog"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Show Custom Dialog"
+        android:textSize="25dp"
+        android:backgroundTint="#0090FF"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/btnSheetDialog"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Show Sheet Dialog"
+        android:textSize="25dp"
+        android:backgroundTint="#FFBF00"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        >
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ListView</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="login">Login</string>
+    <string name="password">Password:</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="email">Email:</string>
+
+    <string-array name="foodList">
+        <item>Bún chả</item>
+        <item>Cơm chiên</item>
+        <item>Phở</item>
+        <item>Bún thịt nướng</item>
+        <item>Bún real</item>
+        <item>Bún bò</item>
+        <item>Bún quậy</item>
+        <item>Cháo lòng</item>
+        <item>Bún mắm</item>
+        <item>bún thái</item>
+        <item>bánh mì</item>
+        <item>Lòng xào dưa</item>
+        <item>Cơm tắm</item>
+        <item>Tôm hấp</item>
+        <item>Cơm luộc</item>
+        <item>Cơm rang</item>
+        <item>Cơm hấp</item>
+        <item>Lẩu nắm</item>
+        <item>Lẩu thái</item>
+        <item>Lẩu cua đồng</item>
+    </string-array>
+</resources>
