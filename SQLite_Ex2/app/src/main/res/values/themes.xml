@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SQLite_Ex2" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">#F40707</item>
+    </style>
+
+    <style name="Theme.SQLite_Ex2" parent="Base.Theme.SQLite_Ex2" />
+</resources>
