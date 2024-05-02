@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="warranty services"
+        android:textSize="34sp"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#1C9A2D"/>
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:hint="Enter product's name" />
+
+    <EditText
+        android:id="@+id/edtDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:hint="Enter product's description" />
+
+    <Button
+        android:id="@+id/btnCapture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:text="Capture"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#1C9A2D"
+        android:drawableLeft="@drawable/baseline_add_a_photo_24"
+        android:layout_gravity="right" />
+
+    <ImageView
+        android:id="@+id/imvPhoto"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+
+        android:src="@drawable/ic_launcher_background"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:layout_marginTop="10dp"
+       android:orientation="horizontal">
+
+       <Button
+           android:id="@+id/btnSave"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="24sp"
+           android:text="Save"
+           android:backgroundTint="#1E78C6"/>
+
+       <Button
+           android:id="@+id/btnCancel"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="24sp"
+           android:text="Cancel"
+           android:layout_marginStart="20dp"
+           android:backgroundTint="#C61E1E"/>
+
+   </LinearLayout>
+
+</LinearLayout>
