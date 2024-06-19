@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#36B9BD">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/advertise_banner"
+                />
+
+           <TableLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:stretchColumns="*"
+               >
+
+               <TableRow>
+                   <ImageView
+                       android:id="@+id/btnLunchBox"
+                       android:layout_width="100dp"
+                       android:layout_height="100dp"
+                       android:scaleType="fitCenter"
+                       android:src="@drawable/lunch_box_icon" />
+                   <ImageView
+                       android:id="@+id/btnNoodle"
+                       android:layout_width="100dp"
+                       android:layout_height="100dp"
+                       android:scaleType="fitCenter"
+                       android:src="@drawable/noodle_icon" />
+                   <ImageView
+                       android:layout_width="100dp"
+                       android:layout_height="100dp"
+                       android:scaleType="fitCenter"
+                       android:src="@drawable/milk_tea_icon" />
+               </TableRow>
+
+               <TableRow>
+                   <ImageView
+                       android:layout_width="100dp"
+                       android:layout_height="100dp"
+                       android:scaleType="fitCenter"
+                       android:src="@drawable/snack_icon" />
+                   <ImageView
+                       android:layout_width="100dp"
+                       android:layout_height="100dp"
+                       android:scaleType="fitCenter"
+                       android:src="@drawable/korean_icon" />
+                   <ImageView
+                       android:layout_width="100dp"
+                       android:layout_height="100dp"
+                       android:scaleType="fitCenter"
+                       android:src="@drawable/healthy_icon" />
+               </TableRow>
+           </TableLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/baemin_studio_banner" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*"
+                >
+                <TableRow>
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/momo_service" />
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/zalopay_service" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*"
+                >
+                <TableRow>
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/tocotoco_promo" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/share_tea_promo" />
+                </TableRow>
+                <TableRow>
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/comebuy_promo" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/chaosuon_promo" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
